@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="files\osmium">
+      <UniqueIdentifier>{16f9a4d6-cf94-4813-a2a2-0a3c9a1639d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\cheat">
+      <UniqueIdentifier>{b728ea25-f53a-483d-9360-5707431c0f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\overlay">
+      <UniqueIdentifier>{f7f9beb0-6949-497b-b325-2d99572e62ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\menu">
+      <UniqueIdentifier>{a8b3d3b6-a172-4c7b-b720-c5c51861fd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\features">
+      <UniqueIdentifier>{253e0bf3-8a56-473d-96f4-49dd5691adbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Hook\hook.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x64\image_x64.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Image_x86\image_x86.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Overlay\overlay.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Memory\Process\process.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_cheat.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="osmium\Testing\test_overlay.cpp">
+      <Filter>files\osmium</Filter>
+    </ClCompile>
+    <ClCompile Include="zm_cheat.cpp">
+      <Filter>files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="zm_overlay.cpp">
+      <Filter>files\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_esp.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_godmode.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_infinite_ammo.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_hooks.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_vac.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_money.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_fov.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_speed.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_aimbot.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_debug.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_weapon.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_teleport.cpp">
+      <Filter>files\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="osmium\Cheat\cheat.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\custom_data_types.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Cheat\Feature\feature.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Hook\hook.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x64\image_x64.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Image_x86\image_x86.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Includings\modules.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Overlay\overlay.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\Process\process.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\RegisterDumper\registercontext.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Memory\SharedMemoryInstance\sharedmemoryinstance.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_cheat.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="osmium\Testing\test_overlay.hpp">
+      <Filter>files\osmium</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="zm_cheat.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="zm_overlay.hpp">
+      <Filter>files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp">
+      <Filter>files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_esp.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="game_structs.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_godmode.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_infinite_ammo.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_math.hpp">
+      <Filter>files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_hooks.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_vac.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_money.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_fov.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_speed.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_aimbot.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_debug.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_weapon.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="ft_teleport.hpp">
+      <Filter>files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

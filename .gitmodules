@@ -1,0 +1,3 @@
+[submodule "bo1-fun/osmium"]
+	path = bo1-fun/osmium
+	url = https://github.com/cragson/osmium.git
